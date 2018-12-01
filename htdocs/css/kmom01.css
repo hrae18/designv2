@@ -14,3 +14,112 @@
 .rm-navbar-max {
     display: none;
 }
+
+html {
+    background-color: black;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.figureright {
+    float: right;
+    margin-left: 15px;
+    margin-right: 4px;
+}
+
+.figureleft {
+    float: left;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+body {
+    margin: 8px auto;
+    padding: 8px;
+    width: 980px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid rgba(150, 150, 150, 0.4);
+}
+
+article {
+    height: 100%;
+}
+
+.byline {
+    margin-top: 35px;
+    border: 1px solid rgba(150, 150, 150, 0.7);
+    clear: right;
+}
+
+.site-logo {
+    visibility: hidden
+}
+
+.site-logo-text {
+    visibility: hidden
+}
+
+.row {
+    clear: left;
+    display: block;
+}
+
+.region-footer {
+    clear: left;
+    display: inline;
+    width: 100%;
+    text-align: center;
+}
+
+.region-footer p {
+    margin-top: 0.5em;
+}
+
+.footer-column-wrappper {
+    clear: left;
+    display: block;
+    margin-bottom: 0.5em;
+    clear: both;
+}
+
+.footer-column {
+    display: inline-block;
+    text-align: center;
+    padding: 0.5em;
+    width: 30.9%;
+    background-color: lightgray;
+    border-left: 2px solid rgba(150, 150, 150, 0.4);
+    border-right: 2px solid rgba(150, 150, 150, 0.4);
+}
+
+.my-navbar {
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    border: 2px solid rgba(150, 150, 150, 0.4);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.site-logo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.my-navbar li {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid rgba(150, 150, 150, 0.4);
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: inset 0 0 3px 2px rgba(0, 0, 0, 0.7);
+    background-color: lightgray;
+    color: rgb(230, 242, 255);
+}
+
+.my-navbar li:hover {
+    text-decoration: underline;
+    color: rgb(149, 66, 244);
+}

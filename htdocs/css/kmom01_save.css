@@ -1,0 +1,174 @@
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+    display: none;
+}
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+    display: none;
+}
+
+html {
+    background-image: url('../img/background1.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.me {
+    float: left;
+    margin-right: 15px;
+    margin-left: 4px;
+    width: 250px;
+}
+
+h1 {
+    color: rgb(230, 242, 255);
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 26pt;
+    margin: 20px 0 10px;
+}
+
+p {
+    color: rgb(230, 242, 255);
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 14pt;
+}
+
+p#byline-text {
+    color: rgb(230, 242, 255);
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 11pt;
+}
+
+h2 {
+    color: rgb(230, 242, 255);
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 20pt;
+}
+
+body {
+    margin: 8px auto;
+    padding: 8px;
+    width: 980px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    border: 2px solid rgba(150, 150, 150, 0.4);
+}
+
+@media (max-width: 980px) {
+    body {
+        width: auto;
+        background-color: rgba(39, 40, 40, 0.4);
+    }
+}
+
+.byline {
+    margin-top: 35px;
+    clear: left;
+    border-top: 1px solid rgba(150, 150, 150, 0.7);
+}
+
+.site-footer {
+    text-align: center;
+}
+
+p#footer-text {
+    color: rgb(230, 242, 255);
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 12pt;
+}
+
+.site-header {
+    border-radius: 10px;
+    border: 2px solid rgba(150, 150, 150, 0.7);
+    overflow: auto;
+    box-shadow: inset 0 0 7px 4px rgba(0, 0, 0, 0.7);
+    background-image: url('../img/background2.png');
+    text-align: center;
+    padding-right: 230px;
+    padding-left: 20px;
+    font-family: 'Uncial Antiqua', cursive;
+    color: rgb(230, 242, 255);
+}
+
+.site-header img {
+    float: left;
+    width: 150px;
+    margin: 5px;
+}
+
+.site-title {
+    display: block;
+    padding-top: 1em;
+    padding-left: 50px;
+    font-size: 32px;
+    overflow: auto;
+}
+
+.site-slogan {
+    display: block;
+    padding-left: 50px;
+    font-style: italic;
+    overflow: auto;
+}
+
+.author {
+    padding-top: 10px;
+    border-top: 1px solid rgba(150, 150, 150, 0.7);
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 10pt;
+}
+
+a:link {
+    color: rgb(0, 15, 255);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(131, 138, 247);
+}
+
+.navbar {
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 2px solid rgba(150, 150, 150, 0.4);
+    border-radius: 10px;
+    box-shadow: inset 0 0 7px 4px rgba(0, 0, 0, 0.7);
+    background-image: url('../img/background2.png');
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid rgba(150, 150, 150, 0.4);
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: inset 0 0 3px 2px rgba(0, 0, 0, 0.7);
+    background-image: url('../img/background3.png');
+    color: rgb(230, 242, 255);
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: rgb(149, 66, 244);
+}
+
+.navbar .selected {
+    background-image: url('../img/background4.png');
+    text-decoration: none;
+}
