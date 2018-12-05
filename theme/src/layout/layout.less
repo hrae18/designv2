@@ -1,0 +1,142 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+// /* Hide submenu, leave this to kmom02 */
+// .rm-desktop ul {
+//     display: none;
+// }
+//
+// /* Hide responsive/mobile menu, leave this to kmom02 */
+// .rm-navbar-max {
+//     display: none;
+// }
+
+.site-logo {
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.site-logo-text {
+    visibility: hidden
+}
+
+.region-header {
+    margin-bottom: 20px;
+}
+
+.figureright {
+    float: right;
+    margin-left: 15px;
+    margin-right: 4px;
+}
+
+.figureleft {
+    float: left;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.byline {
+    margin-top: 35px;
+    border: 1px solid rgba(150, 150, 150, 0.7);
+    clear: right;
+}
+
+.row {
+    clear: left;
+    display: block;
+}
+
+.region-footer {
+    clear: left;
+    display: inline;
+    width: 100%;
+    text-align: center;
+}
+
+.region-footer p {
+    margin-top: 0.5em;
+}
+
+.footer-column-wrappper {
+    clear: left;
+    display: block;
+    margin-bottom: 0.5em;
+    clear: both;
+}
+
+.footer-column {
+    display: inline-block;
+    text-align: center;
+    padding: 0.5em;
+    width: 30.9%;
+}
+
+.inner-wrap-main {
+    //.clearfix();
+    overflow: auto;
+}
+
+.region-main {
+    width: 100%;
+    float: left;
+    &.has-sidebar {
+        width: 70%;
+    }
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-left.region-sidebar-right,
+.region-sidebar-right.region-sidebar-left {
+    width: 20%;
+    float: left;
+}
+
+// .my-navbar {
+//     display: block;
+//     text-align: center;
+//     padding: 0.5em;
+//     border: 2px solid rgba(150, 150, 150, 0.4);
+//     border-radius: 10px;
+// }
+//
+// .my-navbar li {
+//     display: inline-block;
+//     padding: 0.5em 1em;
+//     border: 1px solid rgba(150, 150, 150, 0.4);
+//     border-radius: 5px;
+//     text-decoration: none;
+//     box-shadow: inset 0 0 3px 2px rgba(0, 0, 0, 0.7);
+//     background-color: #333;
+//     color: rgb(230, 242, 255);
+// }
+//
+// .my-navbar li:hover {
+//     text-decoration: underline;
+//     color: rgb(149, 66, 244);
+// }
